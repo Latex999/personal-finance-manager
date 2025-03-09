@@ -9,6 +9,8 @@ A comprehensive web application for tracking personal finances, budgeting, and v
 - **Expense Tracking**: Record and categorize all expenses
 - **Budget Management**: Create and manage monthly budgets for different categories
 - **Savings Goals**: Set and track progress towards financial goals
+- **Reports & Analytics**: Generate detailed financial reports with visualizations and trends
+- **User Profile**: Manage user settings and preferences
 - **Data Visualization**: View spending patterns and financial trends with interactive charts
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
 
@@ -23,6 +25,10 @@ A comprehensive web application for tracking personal finances, budgeting, and v
 - **Frontend**: React, Chakra UI, Chart.js
 - **Backend**: Firebase (Authentication, Firestore)
 - **Deployment**: Firebase Hosting
+- **Form Handling**: Formik with Yup validation
+- **Visualization**: Chart.js with react-chartjs-2
+- **Date Management**: date-fns
+- **State Management**: React Context API
 
 ## Installation and Setup
 
@@ -67,7 +73,24 @@ A comprehensive web application for tracking personal finances, budgeting, and v
 3. **Track Expenses**: Log expenses with amount, date, category, and optional notes
 4. **Set Budgets**: Create monthly budgets for different spending categories
 5. **Create Savings Goals**: Set financial goals with target amounts and deadlines
-6. **Analyze Data**: View charts and reports to better understand your spending habits
+6. **Generate Reports**: View comprehensive reports with visualizations and insights
+7. **Manage Profile**: Update personal information and application settings
+8. **Analyze Data**: View charts and reports to better understand your spending habits
+
+## Recent Updates
+
+- Added comprehensive Reports page with financial analytics and visualizations
+- Added Profile management page with settings and account preferences
+- Improved data visualization with trend analysis
+- Enhanced user interface for better usability
+
+## Planned Features
+
+- Dark mode support
+- CSV/Excel data export
+- Recurring transactions
+- Bill reminders
+- Mobile application
 
 ## Contributing
 
@@ -79,6 +102,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Icons provided by [FontAwesome](https://fontawesome.com/)
+- Icons provided by [FontAwesome](https://fontawesome.com/) and [React Icons](https://react-icons.github.io/react-icons/)
 - Charts powered by [Chart.js](https://www.chartjs.org/)
 - UI components from [Chakra UI](https://chakra-ui.com/)
